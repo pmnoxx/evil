@@ -336,7 +336,7 @@
 (define-key evil-visual-state-map "U" 'evil-upcase)
 (define-key evil-visual-state-map "z=" 'ispell-word)
 (define-key evil-visual-state-map "a" evil-outer-text-objects-map)
-(define-key evil-visual-state-map "i" evil-inner-text-objects-map)
+;; (define-key evil-visual-state-map "i" evil-inner-text-objects-map)
 (define-key evil-visual-state-map (kbd "<insert>") 'undefined)
 (define-key evil-visual-state-map (kbd "<insertchar>") 'undefined)
 (define-key evil-visual-state-map [remap evil-repeat] 'undefined)
